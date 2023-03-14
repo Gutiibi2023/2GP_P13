@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.Recursos Aplicados</title>
+    <style>
+        *{
+            margin: 3%;
+            padding: 0;
+        }
+        h1{
+            position: fixed;
+            z-index: ;
+            top: 50%;
+            left: 50%;
+        }
+        h2{
+            position: fixed;
+            top: 35%;
+            left: 50%;
+            transform: rotate(-70deg);
+        }
+        ol{
+            position: fixed;
+            top: 30%;
+            left: 20%;
+            transform: rotate(-75deg);
+        }
+        .Any{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+        .Escola{
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+        .taula{
+            position: fixed;
+            z-index: -5;
+            top: 0;
+            left: 0;
+            width: 120px;
+            height: 100px;
+            animation-name: movtaula;
+            animation-duration: 25s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes movtaula {
+            0% {
+                top: 0%;
+                left: 0%;
+            }
+            20%{
+                top:85%;
+                left: 15%;
+                transform: rotate(-40deg);
+            }
+            40%{
+                top: 60%;
+                left: 89%;
+                transform: rotate(-90deg);
+            }
+            60%{
+                top: 10%;
+                left: 60%;
+                transform: rotate(-150deg);
+            }
+            80%{
+                top: 45%;
+                left: 37%;
+                transform: rotate(-270deg);
+            }
+            100%{
+                top: 0%;
+                left: 0%;
+                transform: rotate(-360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Grafica Publicitaria</h1>
+        <h2>Denis Gutierrez</h2>
+        <h3>Recuros Aplicados</h3>
+    </header>
+    <main>
+        <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="contact">Contact</a></li>
+            <li><a href="Settings">Settings</a></li>
+        </ul>
+    </main>
+    <footer>
+        <h3 class="Any">Any 2022-2023</h3>
+        <h3 class="Escola">EASD Alcoi</h3>
+    </footer>
+    <div class="taula">
+        <img src="../p2/img/Sin título-1@2x.png" alt="">
+    </div>
+    
+</body>
+</html>
